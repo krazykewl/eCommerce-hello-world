@@ -1,5 +1,5 @@
-var MyContract = artifacts.require("./MyContract.sol");
+var KrazyKewlSlotsToken = artifacts.require("./KrazyKewlSlotsToken.sol");
 
 module.exports = function(deployer) {
-//  deployer.deploy(MyContract.sol);
+deployer.deploy(KrazyKewlSlotsToken.sol);
 };
